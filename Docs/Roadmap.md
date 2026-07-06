@@ -1,4 +1,4 @@
-#The modules iam gonna build:
+# The modules iam gonna build:
 
 * Core
 * Window System
