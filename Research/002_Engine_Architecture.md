@@ -94,18 +94,3 @@
 2. Unreal - C++
 3. Godot - GDScript/C#
 4. GameMaker - GML(GameMaker Language)
-
-#### Core architecture:
-
-+-------------------------------------------------------+
-|                 Gameplay Script Layer                 |
-|        (Lua, GDScript, C#, Blueprints, GML)           |
-+-------------------------------------------------------+
-                           │
-                           │  Glue Code / Bindings API
-                           ▼
-+-------------------------------------------------------+
-|                  Core Engine Layer                    |
-|      (C / C++: Rendering, Physics, Memory)           |
-+-------------------------------------------------------+
-```
