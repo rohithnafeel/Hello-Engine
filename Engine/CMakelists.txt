@@ -1,5 +1,5 @@
-add_library(Engine STATIC)
+add_library(Engine INTERFACE)
 
-target_include_directories(Engine PUBLIC
+target_include_directories(Engine INTERFACE
     include
 )
